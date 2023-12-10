@@ -1,0 +1,111 @@
+/* use a css variable for consistency of our colors */
+:root {
+  /* how to define a css variable */
+  --primary-color: #a41083;
+
+  /* how to use a css variable: */
+  /* background-color: var(--primary-color); */
+}
+/* --------------------------------------------------- */
+
+body {
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  min-height: 95vh;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+a {
+  cursor: pointer;
+}
+div {
+    width: 800px;
+}
+.company-card-title {
+  font-weight: bold;
+}
+.company-card-content {
+  padding: 30px;
+}
+.company-card:nth-child(odd) {
+  background-color: #ffb9b9;
+}
+.company-card {
+  padding: 50px 30px;
+  border-radius: 15px;
+  letter-spacing: 3px;
+  line-height: 3;
+}
+footer {
+  min-height: 190px;
+  background-color: var(--primary-color);
+  color: white;
+}
+footer ul {
+  padding: 50px;
+}
+footer ul li a {
+  color: white;
+}
+button{
+  padding:10px;
+  background-color:var(--primary-color);
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button:hover{
+  background-color:#6c175a;
+}
+.background{
+  background-color:rgb(167, 166, 166);;
+}
+.login{
+  width:25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color:rgba(217, 217, 217, 1);
+  padding:45px;
+  border-radius:15px;
+  margin-top:10%;
+}
+.login input{
+  padding:5px;
+  width:100%;
+  margin-bottom: 12px;
+  /*background-color: rgba(217, 217, 217, 1);*/
+  
+}
+.login button{
+  margin-left:40px;
+  width:80%;
+  margin-bottom: 10px;
+}
+.login a{
+  color:var(--primary-color);
+  align-self:center;
+}
+.login a:hover{
+  background-color:rgb(167, 166, 166);
+}
+.login h1{
+  text-align: center;
+  color:var(--primary-color);
+}
+.red{
+  color:red;
+  text-align: center;
+}
+.green{
+  color:green;
+  font-size: large;
+  text-align: center;
+}
