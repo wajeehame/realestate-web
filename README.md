@@ -2,10 +2,10 @@ Focus Group:
 Home Buyers (Buyer Dashboard)
 
 Team Members:
-Wajeeha Mehr
-Lorena 
-Abu (Seum)
-Yulia
+Lorena, 
+Abu (Seum), 
+Wajeeha, 
+Yulia, 
 Kenny
 
 LIVE - CODD SERVER - link: https://codd.cs.gsu.edu/~wmehr1/wp/pw/finalproject/index.php
